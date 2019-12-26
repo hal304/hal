@@ -6319,7 +6319,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
 	this.frame_2 = function() {
-		playSound("_11改2");
+		playSound("sound");
 	}
 
 	// actions tween:
@@ -9089,7 +9089,7 @@ lib.properties = {
 		{src:"images/2020Mov_atlas_4.png", id:"2020Mov_atlas_4"},
 		{src:"images/2020Mov_atlas_5.png", id:"2020Mov_atlas_5"},
 		{src:"images/2020Mov_atlas_6.png", id:"2020Mov_atlas_6"},
-		{src:"sounds/_11改2.mp3", id:"_11改2"}
+		{src:"sounds/sound.mp3", id:"sound"}
 	],
 	preloads: []
 };
