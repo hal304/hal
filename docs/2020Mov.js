@@ -4,11 +4,10 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"2020Mov_atlas_", frames: [[722,532,630,630],[1354,532,630,630],[856,1164,630,630],[0,0,720,1280],[856,0,1006,530],[0,1282,854,697]]},
-		{name:"2020Mov_atlas_2", frames: [[0,1767,1427,111],[0,1880,1427,111],[0,379,526,391],[960,319,563,376],[844,697,406,406],[0,772,406,406],[1252,951,406,406],[408,1011,406,406],[816,1105,406,406],[0,1180,406,406],[1224,1359,406,406],[408,1513,720,228],[960,0,867,317],[0,0,958,377],[528,379,314,630],[1525,319,316,630]]},
-		{name:"2020Mov_atlas_3", frames: [[0,0,1427,111],[0,113,1427,111],[0,226,1427,111],[0,339,1427,111],[0,452,1427,111],[0,565,1427,111],[0,678,1427,111],[0,791,1427,111],[0,904,1427,111],[0,1017,1427,111],[0,1130,1427,111],[0,1243,1427,111],[0,1356,1427,111],[0,1469,1427,111],[0,1582,1427,111],[0,1695,1427,111],[0,1808,1427,111],[0,1921,1427,111]]},
-		{name:"2020Mov_atlas_4", frames: [[0,1130,1111,111],[1108,1481,296,111],[1108,1594,296,111],[1696,1265,296,111],[1524,1378,296,111],[1406,1491,296,111],[1406,1604,296,111],[1704,1491,296,111],[1704,1604,296,111],[592,1666,296,111],[379,1779,296,111],[379,1892,296,111],[677,1779,296,111],[677,1892,296,111],[975,1707,296,111],[975,1820,296,111],[975,1933,296,111],[1273,1717,296,111],[1273,1830,296,111],[1571,1717,296,111],[0,0,1427,111],[1571,1830,296,111],[0,113,1427,111],[0,226,1427,111],[0,339,1427,111],[0,452,1427,111],[0,565,1427,111],[0,678,1427,111],[0,791,1427,111],[0,904,1427,111],[0,1017,1427,111],[1429,639,170,245],[0,1770,205,217],[1601,714,170,237],[1842,230,170,239],[1429,886,170,245],[248,1471,170,245],[1180,1130,170,245],[1804,473,170,237],[1632,473,170,239],[1352,1133,170,245],[764,1423,170,235],[1773,714,170,236],[592,1423,170,241],[1670,230,170,241],[1524,1133,170,243],[936,1369,170,235],[207,1770,170,236],[420,1471,170,243],[770,1243,408,124],[224,1243,242,226],[1670,0,307,228],[1429,344,201,293],[1696,1052,156,211],[468,1243,300,178],[0,1579,246,189],[1108,1380,371,99],[1601,953,404,97],[1429,0,239,342],[0,1243,222,334]]},
-		{name:"2020Mov_atlas_5", frames: [[0,0,296,111],[0,113,296,111],[0,226,296,111],[0,339,296,111],[0,452,296,111],[202,565,156,189],[0,722,121,237],[1570,0,79,323],[383,0,83,334],[888,672,83,332],[1547,660,79,323],[1477,1329,79,323],[1210,336,83,333],[445,336,83,334],[468,0,83,334],[799,1678,82,332],[1477,1654,79,323],[1558,985,79,323],[421,1677,82,333],[1233,0,83,333],[633,1007,82,334],[1628,325,79,323],[463,1341,82,334],[589,1679,82,332],[1651,0,79,323],[1210,671,83,333],[973,672,83,332],[505,1677,82,333],[1628,650,79,323],[85,1425,82,334],[1558,1310,79,323],[530,336,83,334],[1053,1342,82,332],[0,1630,82,334],[553,0,83,334],[169,1425,82,334],[123,756,83,333],[1558,1635,79,323],[615,336,83,334],[638,0,83,334],[715,1343,82,333],[1639,975,79,323],[0,961,83,333],[1709,325,79,323],[799,1343,82,333],[1058,672,83,332],[1057,1006,82,333],[298,0,83,335],[1137,1341,82,332],[1732,0,79,323],[1141,1006,82,333],[888,1006,83,332],[700,336,83,334],[208,756,83,333],[1225,1006,82,333],[293,756,83,333],[1709,650,79,323],[1295,335,82,333],[1318,0,82,333],[1221,1341,82,332],[378,1009,83,332],[1477,1003,79,324],[1393,1005,82,332],[1639,1300,79,323],[360,337,83,335],[253,1425,82,334],[378,674,83,333],[723,0,83,334],[1639,1625,79,323],[1295,670,82,333],[1720,975,79,323],[337,1425,82,334],[463,672,83,333],[1463,335,82,332],[1486,0,82,332],[1309,1005,82,333],[785,336,83,334],[1790,325,79,323],[1813,0,79,323],[1790,650,79,323],[1720,1300,79,323],[1305,1675,78,329],[1463,669,82,332],[808,0,83,334],[1379,335,82,333],[1720,1625,79,323],[1402,0,82,333],[1801,975,79,323],[870,336,83,334],[1871,325,79,323],[547,1341,82,334],[893,0,83,334],[1379,670,82,333],[1894,0,79,323],[0,1296,83,332],[717,1007,82,334],[548,672,83,333],[633,672,83,333],[1871,650,79,323],[1801,1300,79,323],[955,336,83,334],[801,1007,82,334],[1801,1625,79,323],[978,0,83,334],[1393,1339,82,332],[1393,1673,82,332],[1882,975,79,323],[718,672,83,333],[973,1006,82,334],[1137,1675,82,332],[1309,1340,82,333],[1952,325,79,323],[1053,1676,82,332],[1952,650,79,323],[1882,1300,79,323],[85,1091,83,332],[1882,1625,79,323],[170,1091,83,332],[1963,975,79,323],[967,1677,82,332],[885,1340,82,334],[1040,336,83,334],[969,1342,82,333],[1063,0,83,334],[1221,1675,82,332],[803,672,83,333],[1963,1300,79,323],[255,1091,83,332],[1963,1625,79,323],[1125,336,83,334],[883,1676,82,333],[463,1007,83,332],[548,1007,83,332],[1148,0,83,334],[631,1343,82,334],[1547,334,79,324],[715,1678,82,333],[84,1761,222,119],[0,565,200,155]]},
-		{name:"2020Mov_atlas_6", frames: [[400,650,224,111],[626,650,224,111],[852,650,224,111],[1078,650,224,111],[1304,650,224,111],[1998,1010,39,36],[2026,472,20,19],[828,1066,41,18],[1921,943,40,18],[2026,371,18,36],[1276,917,163,65],[1474,763,43,41],[1998,964,40,44],[1441,899,30,52],[160,874,72,132],[858,975,88,89],[699,1000,59,118],[1792,943,127,75],[858,918,59,38],[241,0,78,323],[321,0,78,323],[401,0,78,323],[481,0,78,323],[1921,964,75,105],[561,0,78,323],[641,0,78,323],[721,0,78,323],[801,0,78,323],[881,0,78,323],[961,0,78,323],[1041,0,78,323],[1038,967,75,105],[1121,0,78,323],[1201,0,78,323],[1281,0,78,323],[1361,0,78,323],[1441,0,78,323],[1521,0,78,323],[0,975,75,105],[1601,0,78,323],[1681,0,78,323],[162,0,77,329],[1761,0,78,323],[1841,0,78,323],[1921,0,78,323],[0,325,78,323],[80,325,78,323],[241,325,78,323],[1271,984,71,107],[321,325,78,323],[1344,984,71,107],[401,325,78,323],[311,975,73,105],[481,325,78,323],[561,325,78,323],[641,325,78,323],[721,325,78,323],[801,325,78,323],[881,325,78,323],[961,325,78,323],[1041,325,78,323],[1121,325,78,323],[1201,325,78,323],[1281,325,78,323],[1361,325,78,323],[1441,325,78,323],[1521,325,78,323],[1601,325,78,323],[1681,325,78,323],[1761,325,78,323],[77,975,75,105],[1841,325,78,323],[948,975,73,105],[0,0,79,323],[1921,325,78,323],[160,331,78,323],[0,650,78,323],[81,0,79,323],[80,650,78,323],[240,650,78,323],[320,650,78,323],[234,975,75,105],[919,763,132,115],[1792,864,68,75],[1823,1052,59,24],[1750,1020,71,61],[2026,409,20,30],[1998,1048,50,18],[1534,1050,51,31],[1179,1059,51,24],[1587,1050,49,26],[1884,1020,31,37],[622,868,85,124],[1276,763,92,152],[1872,791,89,150],[815,763,102,153],[1645,946,103,92],[400,763,139,142],[400,907,119,87],[714,763,99,164],[1530,650,139,160],[1474,812,83,148],[160,656,74,216],[1188,763,86,175],[919,880,117,93],[1671,650,201,106],[1053,879,132,86],[1823,1020,56,30],[1115,967,62,124],[1472,1065,50,18],[709,929,147,69],[1645,864,145,80],[1559,812,84,146],[1187,940,82,117],[1874,650,144,139],[1641,1040,101,26],[541,763,171,103],[2001,550,31,73],[1750,946,30,72],[1671,758,199,104],[622,994,75,100],[462,996,74,100],[386,996,74,101],[2001,625,38,22],[760,1000,66,92],[538,1016,61,96],[1534,962,105,86],[2020,649,26,25],[2001,371,23,177],[2001,175,33,194],[154,1008,58,103],[2001,0,44,173],[1370,763,102,134],[1963,791,75,171],[1053,763,133,114],[1417,1065,53,20],[1441,962,91,101],[2026,493,11,11],[2026,441,17,29],[541,868,79,146]]}
+		{name:"2020Mov_atlas_2", frames: [[408,1827,1111,111],[816,1589,956,111],[816,1702,946,111],[0,379,526,391],[960,319,563,376],[0,772,406,406],[846,697,406,406],[408,1011,406,406],[0,1180,406,406],[0,1588,406,406],[408,1419,406,406],[1254,951,406,406],[816,1359,720,228],[960,0,867,317],[0,0,958,377],[1525,319,314,630],[528,379,316,630]]},
+		{name:"2020Mov_atlas_3", frames: [[1152,1243,482,111],[746,791,742,111],[172,1836,296,111],[0,113,874,111],[688,1893,296,111],[674,1130,652,111],[1580,1908,296,111],[0,904,728,111],[1219,1909,296,111],[0,226,810,111],[0,1130,672,111],[0,452,794,111],[0,339,802,111],[796,452,782,111],[172,1482,374,111],[0,0,930,111],[730,904,726,111],[642,1243,508,111],[812,226,810,111],[0,1017,722,111],[876,113,858,111],[0,791,744,111],[804,339,802,111],[0,1243,640,111],[0,1356,470,111],[1328,1130,642,111],[0,678,754,111],[0,565,778,111],[932,0,876,111],[724,1017,722,111],[756,678,754,111],[780,565,774,111],[1337,1356,170,245],[1130,1356,205,217],[1236,1603,170,237],[172,1595,170,239],[1509,1423,170,245],[1681,1423,170,245],[1853,1423,170,245],[1408,1670,170,237],[344,1595,170,239],[0,1469,170,245],[0,1716,170,235],[1580,1670,170,236],[892,1547,170,241],[1064,1575,170,241],[548,1482,170,243],[516,1727,170,235],[1752,1670,170,236],[720,1547,170,243],[472,1356,408,124],[1804,752,242,226],[1490,793,307,228],[1804,457,201,293],[1061,1818,156,211],[1636,1243,300,178],[882,1356,246,189],[688,1792,371,99],[1448,1023,404,97],[1736,113,239,342],[1580,457,222,334]]},
+		{name:"2020Mov_atlas_4", frames: [[0,0,296,111],[0,113,296,111],[0,226,296,111],[0,339,296,111],[0,452,296,111],[0,565,296,111],[0,678,296,111],[0,791,296,111],[0,904,296,111],[0,1017,296,111],[0,1130,296,111],[0,1243,296,111],[0,1356,296,111],[0,1469,296,111],[0,1582,296,111],[0,1695,296,111],[0,1808,296,111],[0,1921,296,111],[298,0,296,111],[298,113,296,111],[298,226,296,111],[500,339,156,189],[298,496,121,237],[1736,326,79,323],[421,530,83,334],[978,1342,83,332],[1736,651,79,323],[1817,0,79,323],[1021,0,83,333],[298,735,83,334],[506,530,83,334],[1566,1005,82,332],[1817,325,79,323],[1817,650,79,323],[1314,1341,82,333],[1016,672,83,333],[1148,1004,82,334],[1818,975,79,323],[1148,1340,82,334],[1566,1339,82,332],[1818,1300,79,323],[1083,335,83,333],[553,1345,83,332],[1314,1676,82,333],[1818,1625,79,323],[978,1676,82,334],[1898,0,79,323],[681,0,83,334],[1566,1673,82,332],[808,1677,82,334],[591,674,83,334],[892,1677,82,334],[1106,0,83,333],[1898,325,79,323],[383,866,83,334],[298,1071,83,334],[1316,0,82,333],[1898,650,79,323],[1016,1007,83,333],[1899,975,79,323],[1191,0,82,333],[383,1537,83,332],[1316,335,82,333],[596,0,83,335],[1568,0,82,332],[1899,1300,79,323],[1316,670,82,333],[468,1537,83,332],[468,866,83,334],[383,1202,83,333],[1398,1005,82,333],[298,1407,83,333],[1899,1625,79,323],[1398,1340,82,333],[1398,1675,82,333],[1568,334,82,332],[638,1345,83,332],[1232,1336,79,324],[1568,668,82,332],[658,337,83,335],[553,1679,82,334],[468,1202,83,333],[676,674,83,334],[1400,0,82,333],[637,1679,82,334],[553,1010,83,333],[1650,1002,82,332],[1650,1336,82,332],[1400,335,82,333],[743,336,83,334],[1232,1005,78,329],[1650,1670,82,332],[766,0,83,334],[1400,670,82,333],[1482,1005,82,333],[761,672,83,334],[721,1679,82,334],[828,336,83,334],[1482,1340,82,333],[723,1345,83,332],[1062,1676,82,334],[638,1010,83,333],[723,1010,83,333],[851,0,83,334],[1146,1676,82,334],[846,672,83,334],[1652,0,82,332],[1652,334,82,332],[808,1008,83,333],[1230,1676,82,334],[1652,668,82,332],[1482,1675,82,333],[1734,1002,82,332],[808,1343,83,332],[893,1343,83,332],[1734,1336,82,332],[1232,669,82,334],[913,336,83,334],[1484,0,82,333],[936,0,83,334],[1734,1670,82,332],[893,1008,83,333],[1063,1342,83,332],[931,672,83,334],[1484,335,82,333],[1101,670,83,332],[1168,335,83,332],[998,336,83,334],[1314,1005,82,334],[1736,0,79,324],[1484,670,82,333],[298,1871,222,119],[298,339,200,155]]},
+		{name:"2020Mov_atlas_5", frames: [[80,975,224,111],[306,975,224,111],[532,975,224,111],[758,975,224,111],[984,975,224,111],[2000,940,39,36],[2023,280,20,19],[1671,1320,41,18],[1671,1340,40,18],[2023,179,18,36],[184,1205,163,65],[2000,851,43,41],[2000,894,40,44],[1888,1317,30,52],[1647,1186,72,132],[1721,1264,88,89],[509,1293,59,118],[1813,1207,127,75],[1241,1337,59,38],[0,325,78,323],[80,325,78,323],[160,325,78,323],[240,325,78,323],[1041,1238,75,105],[320,325,78,323],[400,325,78,323],[480,325,78,323],[560,325,78,323],[640,325,78,323],[720,325,78,323],[800,325,78,323],[874,1240,75,105],[880,325,78,323],[960,325,78,323],[1040,325,78,323],[1120,325,78,323],[1200,325,78,323],[1280,325,78,323],[80,1243,75,105],[1360,325,78,323],[1440,325,78,323],[1944,0,77,329],[1520,325,78,323],[0,0,79,323],[1600,325,78,323],[81,0,79,323],[162,0,79,323],[1680,325,78,323],[1760,325,78,323],[1840,325,78,323],[243,0,79,323],[1920,331,78,323],[324,0,79,323],[405,0,79,323],[232,1272,71,107],[486,0,79,323],[0,650,78,323],[1528,1281,71,107],[567,0,79,323],[80,650,78,323],[573,1265,73,105],[648,0,79,323],[160,650,78,323],[240,650,78,323],[320,650,78,323],[729,0,79,323],[400,650,78,323],[810,0,79,323],[480,650,78,323],[891,0,79,323],[972,0,79,323],[560,650,78,323],[1053,0,79,323],[640,650,78,323],[720,650,78,323],[1134,0,79,323],[800,650,78,323],[880,650,78,323],[960,650,78,323],[1040,650,78,323],[1215,0,79,323],[1120,650,78,323],[1296,0,79,323],[1200,650,78,323],[1377,0,79,323],[1280,650,78,323],[1458,0,79,323],[1360,650,78,323],[1539,0,79,323],[1440,650,78,323],[1942,1251,75,105],[1620,0,79,323],[1520,650,78,323],[1701,0,79,323],[157,1272,73,105],[1782,0,79,323],[1600,650,78,323],[1680,650,78,323],[1760,650,78,323],[1863,0,79,323],[1840,650,78,323],[1920,656,78,323],[0,975,78,323],[951,1261,75,105],[184,1088,132,115],[318,1088,132,115],[1601,1320,68,75],[648,1345,59,24],[305,1324,71,61],[2023,217,20,30],[1028,1345,50,18],[1888,1284,51,31],[709,1345,51,24],[378,1324,49,26],[305,1272,31,37],[1960,1125,85,124],[675,1088,92,152],[873,1088,89,150],[80,1088,102,153],[769,1240,103,92],[1901,981,139,142],[452,1204,119,87],[1351,1083,99,164],[1210,975,139,160],[1041,1088,83,148],[1452,1083,74,216],[587,1088,86,175],[1528,1186,117,93],[1351,975,201,106],[1207,1137,132,86],[1302,1337,56,30],[1382,1249,62,124],[871,1347,50,18],[1126,1236,147,69],[1813,1125,145,80],[1727,1116,84,146],[349,1205,82,117],[1755,975,144,139],[768,1334,101,26],[1554,1081,171,103],[2000,702,31,73],[2000,777,30,72],[1554,975,199,104],[1811,1284,75,100],[0,1300,74,100],[433,1293,74,101],[1601,1281,38,22],[1446,1301,66,92],[1178,1307,61,96],[1275,1249,105,86],[1727,1081,26,25],[2023,0,23,177],[2000,506,33,194],[1118,1307,58,103],[2000,331,44,173],[769,1088,102,134],[964,1088,75,171],[452,1088,133,114],[1275,1225,53,20],[675,1242,91,101],[2023,301,11,11],[2023,249,17,29],[1126,1088,79,146]]}
 ];
 
 
@@ -23,428 +22,428 @@ p.nominalBounds = new cjs.Rectangle(0,0,2799,2800);
 
 
 (lib.CachedBmp_63 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+	this.initialize(ss["2020Mov_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_62 = function() {
-	this.initialize(ss["2020Mov_atlas_2"]);
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_61 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_60 = function() {
-	this.initialize(ss["2020Mov_atlas_2"]);
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_59 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_58 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_57 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_56 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_55 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_53 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_52 = function() {
-	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["2020Mov_atlas_2"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_51 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_50 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_49 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_48 = function() {
-	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["2020Mov_atlas_2"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_47 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_46 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_45 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_44 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_43 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_42 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_39 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_38 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_35 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_34 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_33 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_32 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_30 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_29 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(16);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_28 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_27 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(16);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(18);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
 	this.initialize(ss["2020Mov_atlas_3"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_23 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_22 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(20);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_21 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_20 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_19 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_18 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_17 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(1);
+(lib.CachedBmp_19 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_16 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(25);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(26);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(27);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(3);
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -456,35 +455,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.眉左 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.下まぶた111 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.下まぶた = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.紐飾り = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
@@ -506,55 +505,55 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 (lib.木鼻獅子 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.木鼻獏 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.輪郭 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(31);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.頬 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.頭蓋 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(32);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.鈴1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.鈴 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.鼻 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
@@ -568,49 +567,49 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 
 (lib._0000_パー = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0000s_0000_グー1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0000s_0001_上げ途中前腕 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0001_にぎりこぶし = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0001s_0000_降ろし手 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0002s_0000_グー2 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.あ = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
@@ -624,616 +623,616 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 
 (lib.BMP_005892d8_6fd7_405b_b222_ab6c9489b7c6 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_01a9dff6_084b_4946_a2a2_a15a356abf0b = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(8);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0318891b_ac2b_4b7d_a2bf_644918398b34 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(9);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0341f971_e701_49a5_b631_ea2f4bd5e493 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(33);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_03c3e285_d73c_4e33_8407_d0f1bd70a2ac = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_06cd6555_d833_45ff_9df4_ff3754d1008f = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_09b721d6_99ba_4b21_a157_bc7438ae56ee = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0a612b1b_b175_4b21_b283_e1ac62c3a49b = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(11);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0abd5bcc_9828_46e9_849d_7a91f2d6a500 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(34);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0b01ee59_b318_41bb_9658_fb7e651be693 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0b2ceb60_8f02_4c75_bd89_7bf95750eefb = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(12);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0c7eb29e_7b20_4e57_a511_0a8922b21f39 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(13);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0c9049ae_8b8d_454b_8675_440e3cf9ab5a = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0f39da88_3675_4d02_a241_e696308c747a = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0f99b592_ea2d_4bc2_a428_bc21ce0d89cb = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(14);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1071afb7_4a8d_449a_86dd_81452bcdb671 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_12b7e841_5df5_4c3e_9835_0d1448f8717d = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(15);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_12c940b5_90bf_425f_97ad_f3f03717b787 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1303a099_5173_4001_9893_9746072006bb = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_136ba26a_22f6_4db8_8484_7871e2266469 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_13a89ac1_3748_4655_b65a_4402a5c38ab5 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_14140f7c_b034_40ed_b235_1fb309253841 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_136ba26a_22f6_4db8_8484_7871e2266469 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_13a89ac1_3748_4655_b65a_4402a5c38ab5 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_14140f7c_b034_40ed_b235_1fb309253841 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.BMP_15b77b13_e5c3_4a5c_959a_ea1319235f08 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_17537a7c_04e7_4387_8c89_8a25ba9c2150 = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_17537a7c_04e7_4387_8c89_8a25ba9c2150 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.BMP_19fef9bf_4639_45bd_800f_f68edf6cca2d = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(21);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1ab66891_4235_425d_b8a5_d614b5b37d43 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(22);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1cba8d0f_8a9e_4cbf_81c0_7d1882473651 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(23);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1d233713_a8f3_4731_87d6_86822dc5a82b = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(24);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1dba9e2f_b9cc_48c0_99de_a12dac10ac29 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(25);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1debe504_f7b0_4587_b5c2_162188e4b93c = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1e468785_b416_47a0_9a09_268dd7680719 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(26);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1f798d0f_13d5_4513_94c7_e032d6c7c1e0 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_20edcebd_4a66_481e_8794_ea9bc7e4a7cb = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(27);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_22a8f8e4_188a_4f28_a8e9_261c3a8271e3 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(28);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_2365b08b_64ef_4fd1_a280_a260eb4f2416 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_252f179a_6380_4eb4_bdf6_dade7d05c7e6 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(29);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_25f5fd21_ad15_407e_91c1_7952defe32e2 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(30);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_26c04b2f_d9b2_437e_8bb1_4344b501dd06 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_27d8fa1e_cf1f_48ce_83eb_12533c97b7ff = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_28815e44_97c0_45f7_8369_19875a3f2f11 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(31);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_295203ad_e234_430c_9825_a3bdf4ca6932 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(32);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_299c94d7_7b08_4961_9a58_a97fc2f172ea = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_2a9fbd1c_c551_4049_ba2d_702f8b1e5e5a = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_2aa8a4aa_2a8e_43fa_8dde_f583983166ed = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(33);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_2bb74fff_f209_4170_9a11_bd3823173b65 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(34);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_2e0daa90_5857_40ea_a924_08daeecf53ad = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(35);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_2f3fc916_d266_4769_9754_d072e65f4388 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(36);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3543de18_4638_4384_befe_0596eef3d121 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_356ef4cf_8f69_4712_a324_91b7b06474dc = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(37);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_36568315_6fca_4f39_a0ed_c9cb7354f2ae = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(38);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3bdb6a31_02d8_4c5a_b0f9_f3168aea7423 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(39);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3becb2b3_dac2_440a_a7cb_65eddc9f8bc4 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(37);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3c2754db_c8cc_472b_bbc4_5fc3cef09bb5 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(40);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3d056653_8db1_4013_8cef_dad1c39bce37 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3f494285_83fc_439e_968d_633c281aca7c = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3f91d39f_8ed7_4715_ba53_8b2764408619 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(41);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_417fd7ff_e1ee_483f_a5c2_6f3f5b3ae67c = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(42);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_41d62784_0f6d_4fbf_8dab_625485703f4f = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4350ca14_c959_4955_8b4b_70205b03e15b = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_43c2b45b_b59c_4f96_82f2_7b493dd7225c = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(43);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_44730584_ff1a_4bcc_b50b_837342252c00 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(44);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4523039b_88af_48a9_a4fe_54a1ca0f94c5 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(45);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(61);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_463adf40_34a4_4ccf_b9d2_563503b185a6 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(46);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_470803b9_976a_45c8_8ffa_59863a43be57 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_47c0860e_7d0f_4fe8_85e4_cfc883e9c347 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(47);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4826fde1_e1a6_40d3_a1d5_647077087ead = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(48);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4bbb57be_a4cc_4475_828d_1087c1db2027 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(49);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4c47f610_4fd1_4e82_8a24_335b9dc6a446 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4da84fa8_600f_4274_aaa0_5c120252c6a2 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(50);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4e64af03_25e4_4896_ae61_05f98eccabfc = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(51);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(67);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4ed3c040_fb79_4fc3_aeda_a72517c8315e = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(38);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4ed7145d_fb9c_483c_bef7_c12d6099e347 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4f3571ef_dbb6_41fc_b9b3_d147bf36fbe4 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(52);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_513d911b_f245_4066_b3ef_18db9d5dc9fb = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(53);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_537de23f_3e3e_4393_ab50_e85aa8d0c9cd = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_53ac8308_f549_43e4_ac78_ff8236c0d748 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(54);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_54e142a4_8e9d_4b3d_99ea_474af771caeb = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_55ab70d9_d972_4684_8d5a_1c4847f81922 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(55);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_55e0e3ee_351b_4108_b91a_938398623c69 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(56);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_56b27fe2_e528_414c_8fb8_fb4a5a86f025 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.BMP_55ab70d9_d972_4684_8d5a_1c4847f81922 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(71);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_55e0e3ee_351b_4108_b91a_938398623c69 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(72);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_56b27fe2_e528_414c_8fb8_fb4a5a86f025 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.BMP_56fd8bc8_52d2_489d_85aa_9a57850eacf9 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(57);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_57004063_f5f9_4356_8480_6a8e3841a082 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(58);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_58e3b440_73d7_4926_85ae_c7fa942c4346 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(59);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(75);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_58e7fa60_c916_44f6_84e4_e2244b018a45 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(60);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_59a19c86_469e_4521_85c2_3f72806398ab = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(61);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(77);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_5bf0f1b3_534e_4312_be07_4d83fb91afeb = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(62);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(78);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_60fd15ee_963a_4105_9d83_0d08ae1eb608 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_62b0185e_03cf_4b85_81ec_010c52cb2213 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
+	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
@@ -1241,973 +1240,980 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 (lib.BMP_640fa39e_3b51_4eb6_ab24_4b1aceed0c8d = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(63);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_641e45e6_73a5_48e2_9746_6d2de8d98903 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_642dcb1b_a448_4c53_b50d_b24c04c8333e = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(64);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_66882080_f164_48b6_bf44_88358e5d8696 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(65);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_66ade7a7_e7b9_4e5c_913e_d1f11e61a78b = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_68120d31_3a68_48f4_b4de_2982413b9f77 = function() {
+(lib.BMP_641e45e6_73a5_48e2_9746_6d2de8d98903 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_642dcb1b_a448_4c53_b50d_b24c04c8333e = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(79);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_66882080_f164_48b6_bf44_88358e5d8696 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(80);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_66ade7a7_e7b9_4e5c_913e_d1f11e61a78b = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(66);
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_68120d31_3a68_48f4_b4de_2982413b9f77 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_6a6ae258_c47c_42f9_b3ab_9abe8bd7c8c4 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(67);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_6ab8ac7a_cbff_4923_90e2_fdc040fe3c4c = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(68);
+	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_6cb70521_6560_4248_88fb_9a17b756918b = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(69);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_6d7d0f25_445d_4e40_8c06_76e2fb3138bd = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(70);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_6e59bca2_e7f2_468e_9b0b_ad45a219a814 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(44);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_6f0755de_a14e_43ee_93ff_50cf94115426 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(45);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_71b2b106_2da4_4211_aeb4_085d638f258f = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(71);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_74b30b7c_a6e5_4386_97f6_25a9438fd034 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(72);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_74d1be59_af01_4272_b8ef_50ee5de47a29 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(73);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_75e6b10a_7900_41c4_a7c2_884316a97ad1 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(74);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_7998b518_42a2_4eed_a9c7_6bba96a57332 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_79a7d8fe_987f_4f67_8a45_1c8851381628 = function() {
+(lib.BMP_6e59bca2_e7f2_468e_9b0b_ad45a219a814 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(75);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_6f0755de_a14e_43ee_93ff_50cf94115426 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(48);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_71b2b106_2da4_4211_aeb4_085d638f258f = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(84);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_74b30b7c_a6e5_4386_97f6_25a9438fd034 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(85);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_74d1be59_af01_4272_b8ef_50ee5de47a29 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(86);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_75e6b10a_7900_41c4_a7c2_884316a97ad1 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(87);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_7998b518_42a2_4eed_a9c7_6bba96a57332 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(49);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_79a7d8fe_987f_4f67_8a45_1c8851381628 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_7a4c5628_3997_4bb9_820f_6a3cba9c71f5 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(76);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_7ab5b9c0_ac26_462e_ae97_17c996ec7b13 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(77);
+	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_7ca8b3d0_e091_4714_8f53_21ad9453c400 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(47);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_7d121fab_2eaf_482b_ba9f_b1049189143a = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(78);
+	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_7ed02a8b_a84e_44a5_a4eb_42b50eaf4584 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(79);
+	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_82693e2c_2a1b_4c41_b15c_dc428c43ca5b = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(48);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_827ab183_c092_41ab_a86f_ddb1c4a97b9b = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(80);
+	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8315c7eb_0ec8_49be_9e0e_26cf3e541641 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(81);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_837278c0_6363_4d97_ac1f_db1b5cc80a8f = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(82);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_83ab9978_e615_4960_a128_223b422364de = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(49);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_84239a1a_7c10_428d_ada3_7594732c4610 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(83);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(92);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_84839c06_c269_42d1_8c6c_ebde8f18322c = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(84);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8579cebf_dc72_45fb_a2f8_69514ca4d215 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(50);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_872c061b_6824_42a0_a7d0_0d313f191bcd = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(85);
+	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_87eb3019_85ff_4b0c_a252_8fb5762bcf55 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(51);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_890ccd09_0ffd_42dd_ad82_8d4255ae5087 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(52);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8dede713_8577_4547_8f34_c2711026bb50 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(86);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8f07bf58_cf2f_4b65_965e_ebce00c4b741 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(87);
+	this.gotoAndStop(61);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8f760e96_e619_4c0b_8a37_c030e7cef409 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(88);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_9149ba0c_1737_4ded_8ac7_fde7ca46873a = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(53);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_91e670dc_19d3_4bdf_8fc8_cdd2c7d28f55 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(54);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_92094f33_1866_4248_b53b_1ebe0cd9ba60 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(42);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_9369d789_03d2_492f_9c9a_042591cb2035 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(55);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_94e60aa9_d1bb_4e1d_b021_ff6e3cf17061 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(89);
+	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_975c72ee_17f8_44ba_9820_e1f8da7c0921 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(90);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_98ef1b7b_256c_454d_a045_1a1ed474564c = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(91);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(97);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_995b349a_b488_48bb_87bc_0cec8a6189a7 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(92);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_9c398cb2_5164_4250_af77_03fe1fb8260a = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(56);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_9c4eda05_9f0d_488c_97cb_14e9d3ba68c4 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(93);
+	this.gotoAndStop(67);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_9ec14720_4f7f_43a5_a5fc_7599094464f5 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(94);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_a0c8db73_fd5a_4aa4_8597_8ca0279a68f3 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(95);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(100);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_a4480310_b8f3_46e7_a748_65d49ed3f6de = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(96);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(101);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_a588a138_f906_46e5_85f5_8ee8883b78fd = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(43);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_a6e84abc_d2ae_40f2_a293_270e4e64d9d5 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(57);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ad27cb26_5a3f_4381_a3f1_7bc29bb26a3e = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(97);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(102);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b075108f_4a4d_4277_9f7d_784157adfa82 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(44);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b49fa985_2e78_4bdb_9444_da5a2c67c871 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(98);
+	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b67df7e5_52ac_4c31_9fca_25f522ef8a0c = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(99);
+	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b94542f3_49dd_4020_a06e_355176924b42 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(100);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(103);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b9f37525_655c_48e1_ba38_5a49e4225481 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(58);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ba0d426d_293d_478a_9706_0cf7f24f672b = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(101);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(104);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ba80f18a_b1f1_4459_be5f_b7ae7818f22d = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(102);
+	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_bbc255de_22a5_4518_aa30_c6ef2c6cf6f0 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(59);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_bbff9686_069f_4c27_907d_5d77e5812413 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(60);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_bd8c1925_a21f_4f80_aef8_9c3badf24b9d = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(103);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(105);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_bde9969a_714f_44fb_91b0_892165367398 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(104);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(106);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_be4d98b6_0501_4c47_966a_bdd2889f4d11 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(105);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_becd85d9_ec1f_48cc_8522_cf9f8667db5e = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(106);
+	this.gotoAndStop(75);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_c0b28ccd_579b_4f39_a825_12e86cfc61ab = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(107);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_c131eeaf_e06f_4508_92df_fd3cbfcc210a = function() {
 	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(45);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_c2813848_e034_4ecd_8e7a_6390ee298dc7 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(108);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_c2ea140d_81a2_4f46_b87b_0e7e2302faa4 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(61);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_c3c4902b_dd43_4a15_b677_63f3636c4e69 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(62);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_c48e5413_9ea2_41f6_a821_a4be52f53b94 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.BMP_c131eeaf_e06f_4508_92df_fd3cbfcc210a = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_c4f89afb_d9de_4dbf_bc26_ec1868100010 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(63);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_c56b18b4_a439_49e6_af04_249deaeb8442 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(64);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.BMP_c66cad0a_aaf8_400b_8617_361dfdffb826 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
+(lib.BMP_c2813848_e034_4ecd_8e7a_6390ee298dc7 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
 	this.gotoAndStop(109);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BMP_c672609b_8ee7_4292_902d_7618746e1613 = function() {
+(lib.BMP_c2ea140d_81a2_4f46_b87b_0e7e2302faa4 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(76);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_c3c4902b_dd43_4a15_b677_63f3636c4e69 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(77);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_c48e5413_9ea2_41f6_a821_a4be52f53b94 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_c4f89afb_d9de_4dbf_bc26_ec1868100010 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(78);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_c56b18b4_a439_49e6_af04_249deaeb8442 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(79);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_c66cad0a_aaf8_400b_8617_361dfdffb826 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
 	this.gotoAndStop(110);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BMP_c672609b_8ee7_4292_902d_7618746e1613 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_c901be55_565b_4dfe_bc27_0cb94098ab29 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(111);
+	this.gotoAndStop(80);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_caaddf6a_c7e0_4d2c_81a9_08dab78d4dfd = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
+	this.initialize(ss["2020Mov_atlas_4"]);
 	this.gotoAndStop(112);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_cd296874_0426_44b4_9478_8cb3c02cf06b = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(65);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_cde7623a_03a9_406c_b73f_a41cd19cae9c = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(113);
+	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ceaabcd2_495b_48b5_83b1_96ba706800d5 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(66);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_cfbf6885_ee9c_4309_a8c1_638f2ee59bc9 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(114);
+	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_cfdc4839_4bb1_41d5_ac81_f905d0425632 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(115);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(113);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d0558971_19ca_4295_9f75_811b923d1253 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(67);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(85);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d27892a0_aaec_4689_9a70_812345c3f054 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(116);
+	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d2b7fb32_fe1c_4f63_98b0_626f252e2eec = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(68);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(87);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d3561dac_42f5_492a_be6a_76965860b4da = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(117);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(114);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d3b6ef61_6367_4f36_a6b4_d5e0eef73415 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(118);
+	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d4c309a4_5108_41c0_a5cf_1211a8623b86 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(119);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(115);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d891eafe_b583_4339_ba66_5a987152a29a = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(120);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(116);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d9f440d6_cad9_4db2_ba02_6e52e7d3f865 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(121);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(117);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_dbb26929_5e8c_4c19_98f5_059db144b153 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(122);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(118);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_dd1f009b_f01a_4afe_945d_0ed8a0bcf75c = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(123);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_dfbd2147_3c82_46e4_a831_78e9f0d3ea18 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(47);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e10675ea_b23d_4f49_9bcc_24f58fecac5f = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(69);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e222e20e_c73c_4158_8634_c7550fe6777d = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(70);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e38cfac4_2562_4a2d_b7fc_032b9b5ad051 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(124);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e571993c_73cc_4ff9_a3de_56b6636dd228 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(125);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e83792c1_5f90_4c3b_9e70_ff75f6e8fee2 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(126);
+	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e89b959c_66d2_4699_97fc_bfc3f282ab3f = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(71);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(92);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ea13a233_9818_48a3_a3f0_6392b633f45f = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(127);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ea485e02_003d_4123_8933_423c30d61d3a = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(128);
+	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ea929c6a_48d6_4283_ac00_8569177fc36c = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(129);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ed34092d_5f10_473b_b66c_d0c5f42bb2fc = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(130);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ee275986_87b9_41df_96f9_4ebd09ca0c2e = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(72);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ee73d3d0_e0e6_48db_bdf3_ffa4446f8191 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(131);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(125);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_eee2a134_b616_4e91_bfe2_264a69719a5a = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(73);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ef5fabdd_c342_4feb_badd_677810cb8932 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(74);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ef63d981_aaa7_41e2_9c54_159040aff52d = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(75);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(97);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f02de759_052a_412d_a106_fce3de1969a5 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(76);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f1e593df_a92f_428a_b348_f63fb13648e9 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(132);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(126);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f266df1a_61eb_461e_ada4_c68a70f6a35e = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(77);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f3c222b5_4fa0_4ce4_b173_1a2835a9aac8 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(48);
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f4d2e29d_334d_432d_b324_c7fbafe56c79 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(78);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(100);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f9d5b007_0f01_42c3_b88b_726756989110 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(133);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(127);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_faed5b35_12cc_49f6_89ab_9ee7517a2c01 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(134);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(128);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_fc1472ff_8655_4f19_a0d4_942b01945f97 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(79);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(101);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_fc3189c6_b4bf_4b49_a293_b8efc0ee435c = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(80);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(102);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_fd38fe12_f09f_4a34_859c_e41bd63c9764 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(135);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(129);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_fee0d667_5555_49e4_bdb4_18e040d9f3b2 = function() {
-	this.initialize(ss["2020Mov_atlas_5"]);
-	this.gotoAndStop(136);
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(130);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_ffbe2925_a3ea_4553_8131_bca43bdf2bc8 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(81);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(103);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.btn02 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(104);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn_next = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(82);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(105);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn_next_hi = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(83);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(106);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card01 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card02 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card03 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card04 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card05 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card06 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.card07 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.い = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(84);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.組みひも梅の花 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(85);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(108);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.う = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(86);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(109);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.うえまぶた111 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(87);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(110);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.うえまぶた1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(88);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.うえまぶた = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(89);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(112);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.flm = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.え = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(90);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(113);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.お = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(91);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(114);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2221,294 +2227,294 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 (lib.LU2 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.前髪中央 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(92);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(115);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.前髪右 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(93);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(116);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.前髪左 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(94);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(117);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.new_上げた襟 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(49);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_着物奥襟 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(95);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_着物手前襟 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_襟奥紺 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(96);
+(lib.new_着物奥襟 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(118);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_襟奥白 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(97);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_奥の腰の手 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(98);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_奥腰に手の前腕 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(99);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_お尻 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_着物手前襟 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_手前袖2 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(100);
+(lib.new_襟奥紺 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_降ろした手 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(101);
+(lib.new_襟奥白 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_降ろした前腕 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(102);
+(lib.new_奥の腰の手 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_降ろした二の腕 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(103);
+(lib.new_奥腰に手の前腕 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_前垂れ = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_お尻 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_腰布右 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(104);
+(lib.new_手前袖2 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_腰布左 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(105);
+(lib.new_降ろした手 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_ばいばい前腕 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_降ろした前腕 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(125);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_降ろした二の腕 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(126);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_前垂れ = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_ばいばい二の腕 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(106);
+(lib.new_腰布右 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(127);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_腹部_2 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_腰布左 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(128);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_ばいばい前腕 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_イシシ = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(107);
+(lib.new_ばいばい二の腕 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(129);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_ウエスト = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_腹部_2 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_ジャケット襟 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_イシシ = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(130);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_ウエスト = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_ジャケット襟腕を腰 = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
+(lib.new_ジャケット襟 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.new_ジャケット襟腕を腰 = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(58);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.new_ジャケットあわせ = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(108);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(131);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.new_ジャケット奥襟 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(131);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_ニコ目 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(132);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_わっか右 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(133);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_わっか左 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(134);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_右太もも = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(59);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_右肩 = function() {
+	this.initialize(ss["2020Mov_atlas_4"]);
+	this.gotoAndStop(132);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_左太もも = function() {
+	this.initialize(ss["2020Mov_atlas_3"]);
+	this.gotoAndStop(60);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_左肩 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(135);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_左胸 = function() {
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(136);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.new_左袖 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(137);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_ニコ目 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(109);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_わっか右 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(110);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_わっか左 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(111);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_右太もも = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(58);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_右肩 = function() {
+(lib.new_袖浦 = function() {
 	this.initialize(ss["2020Mov_atlas_5"]);
 	this.gotoAndStop(138);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.new_左太もも = function() {
-	this.initialize(ss["2020Mov_atlas_4"]);
-	this.gotoAndStop(59);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_左肩 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(112);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_左胸 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(113);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_左袖 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(114);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.new_袖浦 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(115);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.腰の手 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(116);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(139);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.結び目2 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(117);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(140);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.結び目 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(118);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(141);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.RD2 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2521,162 +2527,162 @@ p.nominalBounds = new cjs.Rectangle(0,0,2990,2990);
 
 
 (lib.ひらいた手 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(119);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(142);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ひらひら2 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(120);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(143);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ひらひら3 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(121);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(144);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ひらひら = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(122);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(145);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.白目 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(123);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(146);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.みつあみ先1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(124);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(147);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.みつあみ先 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(125);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(148);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.烏帽子 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(126);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(149);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.黒目 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(127);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(150);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ブラン1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(128);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(151);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ブラン2 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(129);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(152);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.モミ左 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(130);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(153);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.リボン赤1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(131);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(154);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.リボン赤 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(132);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(155);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.リボン白1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(133);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(156);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.リボン白 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(134);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(157);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.口閉じ = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(135);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(158);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.右 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.左 = function() {
 	this.initialize(ss["2020Mov_atlas_2"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.左肩肌 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(136);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(159);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.目頭 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(137);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(160);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.目の端1 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(138);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(161);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.首 = function() {
-	this.initialize(ss["2020Mov_atlas_6"]);
-	this.gotoAndStop(139);
+	this.initialize(ss["2020Mov_atlas_5"]);
+	this.gotoAndStop(162);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -3639,212 +3645,183 @@ p.nominalBounds = new cjs.Rectangle(-60.5,-118.5,121,237);
 (lib.m_text_omikuji = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop();
-		//this.parent.window.card.gotoAndStop("A");
-	}
-	this.frame_3 = function() {
-		this.stop();
-		//this.parent.window.card.gotoAndStop("B");
-	}
-	this.frame_7 = function() {
-		this.stop();
-		//this.parent.window.card.gotoAndStop("C");
-	}
-	this.frame_13 = function() {
-		this.stop();
-		//this.parent.window.card.gotoAndStop("D");
-	}
-	this.frame_24 = function() {
-		this.stop();
-		//this.parent.window.card.gotoAndStop("E");
-	}
-	this.frame_29 = function() {
-		this.stop();
-		//this.parent.window.card.gotoAndStop("F");
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3).call(this.frame_3).wait(4).call(this.frame_7).wait(6).call(this.frame_13).wait(11).call(this.frame_24).wait(5).call(this.frame_29).wait(1));
-
 	// レイヤー_1
 	this.instance = new lib.CachedBmp_4();
-	this.instance.setTransform(-356.85,0,0.5,0.5);
+	this.instance.setTransform(-191,0,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_3();
 	this.instance_1.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_2 = new lib.CachedBmp_6();
-	this.instance_2.setTransform(-356.85,0,0.5,0.5);
+	this.instance_2.setTransform(-192,0,0.5,0.5);
 
 	this.instance_3 = new lib.CachedBmp_5();
 	this.instance_3.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_4 = new lib.CachedBmp_8();
-	this.instance_4.setTransform(-356.85,0,0.5,0.5);
+	this.instance_4.setTransform(-185,0,0.5,0.5);
 
 	this.instance_5 = new lib.CachedBmp_7();
 	this.instance_5.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_6 = new lib.CachedBmp_10();
-	this.instance_6.setTransform(-356.85,0,0.5,0.5);
+	this.instance_6.setTransform(-213,0,0.5,0.5);
 
 	this.instance_7 = new lib.CachedBmp_9();
 	this.instance_7.setTransform(-58.9,-55.5,0.5,0.5);
 
 	this.instance_8 = new lib.CachedBmp_12();
-	this.instance_8.setTransform(-356.85,0,0.5,0.5);
+	this.instance_8.setTransform(-193,0,0.5,0.5);
 
 	this.instance_9 = new lib.CachedBmp_11();
 	this.instance_9.setTransform(-58.9,-55.5,0.5,0.5);
 
 	this.instance_10 = new lib.CachedBmp_14();
-	this.instance_10.setTransform(-356.85,0,0.5,0.5);
+	this.instance_10.setTransform(-193,0,0.5,0.5);
 
 	this.instance_11 = new lib.CachedBmp_13();
 	this.instance_11.setTransform(-58.9,-55.5,0.5,0.5);
 
 	this.instance_12 = new lib.CachedBmp_16();
-	this.instance_12.setTransform(-356.85,0,0.5,0.5);
+	this.instance_12.setTransform(-167,0,0.5,0.5);
 
 	this.instance_13 = new lib.CachedBmp_15();
 	this.instance_13.setTransform(-58.9,-55.5,0.5,0.5);
 
 	this.instance_14 = new lib.CachedBmp_18();
-	this.instance_14.setTransform(-356.85,0,0.5,0.5);
+	this.instance_14.setTransform(-123,0,0.5,0.5);
 
 	this.instance_15 = new lib.CachedBmp_17();
 	this.instance_15.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_16 = new lib.CachedBmp_20();
-	this.instance_16.setTransform(-356.85,0,0.5,0.5);
+	this.instance_16.setTransform(-161,0,0.5,0.5);
 
 	this.instance_17 = new lib.CachedBmp_19();
 	this.instance_17.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_18 = new lib.CachedBmp_22();
-	this.instance_18.setTransform(-356.85,0,0.5,0.5);
+	this.instance_18.setTransform(-198,0,0.5,0.5);
 
 	this.instance_19 = new lib.CachedBmp_21();
 	this.instance_19.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_20 = new lib.CachedBmp_24();
-	this.instance_20.setTransform(-356.85,0,0.5,0.5);
+	this.instance_20.setTransform(-186,0,0.5,0.5);
 
 	this.instance_21 = new lib.CachedBmp_23();
 	this.instance_21.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_22 = new lib.CachedBmp_26();
-	this.instance_22.setTransform(-356.85,0,0.5,0.5);
+	this.instance_22.setTransform(-217,0,0.5,0.5);
 
 	this.instance_23 = new lib.CachedBmp_25();
 	this.instance_23.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_24 = new lib.CachedBmp_28();
-	this.instance_24.setTransform(-356.85,0,0.5,0.5);
+	this.instance_24.setTransform(-186,0,0.5,0.5);
 
 	this.instance_25 = new lib.CachedBmp_27();
 	this.instance_25.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_26 = new lib.CachedBmp_30();
-	this.instance_26.setTransform(-356.85,0,0.5,0.5);
+	this.instance_26.setTransform(-211,0,0.5,0.5);
 
 	this.instance_27 = new lib.CachedBmp_29();
 	this.instance_27.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_28 = new lib.CachedBmp_32();
-	this.instance_28.setTransform(-356.85,0,0.5,0.5);
+	this.instance_28.setTransform(-135,0,0.5,0.5);
 
 	this.instance_29 = new lib.CachedBmp_31();
 	this.instance_29.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_30 = new lib.CachedBmp_34();
-	this.instance_30.setTransform(-356.85,0,0.5,0.5);
+	this.instance_30.setTransform(-184,0,0.5,0.5);
 
 	this.instance_31 = new lib.CachedBmp_33();
 	this.instance_31.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_32 = new lib.CachedBmp_36();
-	this.instance_32.setTransform(-356.85,0,0.5,0.5);
+	this.instance_32.setTransform(-232,0,0.5,0.5);
 
 	this.instance_33 = new lib.CachedBmp_35();
 	this.instance_33.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_34 = new lib.CachedBmp_38();
-	this.instance_34.setTransform(-356.85,0,0.5,0.5);
+	this.instance_34.setTransform(-94,0,0.5,0.5);
 
 	this.instance_35 = new lib.CachedBmp_37();
 	this.instance_35.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_36 = new lib.CachedBmp_40();
-	this.instance_36.setTransform(-356.85,0,0.5,0.5);
+	this.instance_36.setTransform(-204,0,0.5,0.5);
 
 	this.instance_37 = new lib.CachedBmp_39();
 	this.instance_37.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_38 = new lib.CachedBmp_42();
-	this.instance_38.setTransform(-356.85,0,0.5,0.5);
+	this.instance_38.setTransform(-199,0,0.5,0.5);
 
 	this.instance_39 = new lib.CachedBmp_41();
 	this.instance_39.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_40 = new lib.CachedBmp_44();
-	this.instance_40.setTransform(-356.85,0,0.5,0.5);
+	this.instance_40.setTransform(-196,0,0.5,0.5);
 
 	this.instance_41 = new lib.CachedBmp_43();
 	this.instance_41.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_42 = new lib.CachedBmp_46();
-	this.instance_42.setTransform(-356.85,0,0.5,0.5);
+	this.instance_42.setTransform(-170,0,0.5,0.5);
 
 	this.instance_43 = new lib.CachedBmp_45();
 	this.instance_43.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_44 = new lib.CachedBmp_48();
-	this.instance_44.setTransform(-356.85,0,0.5,0.5);
+	this.instance_44.setTransform(-237,0,0.5,0.5);
 
 	this.instance_45 = new lib.CachedBmp_47();
 	this.instance_45.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_46 = new lib.CachedBmp_50();
-	this.instance_46.setTransform(-356.85,0,0.5,0.5);
+	this.instance_46.setTransform(-208,0,0.5,0.5);
 
 	this.instance_47 = new lib.CachedBmp_49();
 	this.instance_47.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_48 = new lib.CachedBmp_52();
-	this.instance_48.setTransform(-356.85,0,0.5,0.5);
+	this.instance_48.setTransform(-231,0,0.5,0.5);
 
 	this.instance_49 = new lib.CachedBmp_51();
 	this.instance_49.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_50 = new lib.CachedBmp_54();
-	this.instance_50.setTransform(-356.85,0,0.5,0.5);
+	this.instance_50.setTransform(-194,0,0.5,0.5);
 
 	this.instance_51 = new lib.CachedBmp_53();
 	this.instance_51.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_52 = new lib.CachedBmp_56();
-	this.instance_52.setTransform(-356.85,0,0.5,0.5);
+	this.instance_52.setTransform(-169,0,0.5,0.5);
 
 	this.instance_53 = new lib.CachedBmp_55();
 	this.instance_53.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_54 = new lib.CachedBmp_58();
-	this.instance_54.setTransform(-356.85,0,0.5,0.5);
+	this.instance_54.setTransform(-228,0,0.5,0.5);
 
 	this.instance_55 = new lib.CachedBmp_57();
 	this.instance_55.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_56 = new lib.CachedBmp_60();
-	this.instance_56.setTransform(-356.85,0,0.5,0.5);
+	this.instance_56.setTransform(-187,0,0.5,0.5);
 
 	this.instance_57 = new lib.CachedBmp_59();
 	this.instance_57.setTransform(-72.9,-55.5,0.5,0.5);
 
 	this.instance_58 = new lib.CachedBmp_62();
-	this.instance_58.setTransform(-356.85,0,0.5,0.5);
+	this.instance_58.setTransform(-124,0,0.5,0.5);
 
 	this.instance_59 = new lib.CachedBmp_61();
 	this.instance_59.setTransform(-57.9,-55.5,0.5,0.5);
@@ -3854,19 +3831,11 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-356.8,-55.5,713.5,111);
+p.nominalBounds = new cjs.Rectangle(-237,-55.5,484,111);
 
 
 (lib.m_kuji = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop();
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(30));
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// 朝
 	this.instance = new lib.朝();
@@ -3895,29 +3864,6 @@ p.nominalBounds = new cjs.Rectangle(-316,-321,631,631);
 
 (lib.m_card = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
-
-	// timeline functions:
-	this.frame_2 = function() {
-		this.stop();
-	}
-	this.frame_6 = function() {
-		this.stop();
-	}
-	this.frame_12 = function() {
-		this.stop();
-	}
-	this.frame_23 = function() {
-		this.stop();
-	}
-	this.frame_28 = function() {
-		this.stop();
-	}
-	this.frame_29 = function() {
-		this.stop();
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(4).call(this.frame_6).wait(6).call(this.frame_12).wait(11).call(this.frame_23).wait(5).call(this.frame_28).wait(1).call(this.frame_29).wait(1));
 
 	// card01_png
 	this.instance = new lib.card01();
@@ -4184,6 +4130,21 @@ p.nominalBounds = new cjs.Rectangle(-203,-203,406,406);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-29.5,-19,59,38);
+
+
+(lib.btn02_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.btn02();
+	this.instance.setTransform(-66,-57.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-66,-57.5,132,115);
 
 
 (lib.btn_hi = function(mode,startPosition,loop) {
@@ -4475,7 +4436,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.card.name = "card";
 	this.card.setTransform(273.4,575.35,0.1401,0.1401,10.7212);
 
-	this.timeline.addTween(cjs.Tween.get(this.card).wait(14).to({x:-1,y:-10.35},0).to({regX:-0.1,regY:-0.1,scaleX:1.2882,scaleY:1.2882,rotation:10.7228,x:-1.05,y:-10.55},6).to({regX:0,regY:0,scaleX:1,scaleY:1,rotation:10.7251,x:-0.85,y:-10.4},2).wait(7).to({alpha:0.0117},5).to({_off:true},1).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.card).wait(14).to({x:-1,y:-10.35},0).to({regX:-0.1,regY:-0.1,scaleX:1.2882,scaleY:1.2882,rotation:10.7228,x:-1.05,y:-10.55},6).to({regX:0,regY:0,scaleX:1,scaleY:1,rotation:10.7251,x:-0.85,y:-10.4},2).wait(7).to({alpha:0.0117},5).wait(1).to({scaleX:0.1401,scaleY:0.1401,rotation:10.7212,x:425.9,y:758.7,alpha:1},0).wait(5));
 
 	// tennki
 	this.tenki = new lib.m_kuji();
@@ -4487,7 +4448,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-676,-348.8,1365.9,957.4000000000001);
+p.nominalBounds = new cjs.Rectangle(-676,-348.8,1365.9,1140.8);
 
 
 (lib.目_薄笑い = function(mode,startPosition,loop) {
@@ -7877,6 +7838,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// timeline functions:
 	this.frame_0 = function() {
 		this.stop();
+		var a=0;
 		/* マウスクリックイベント
 		特定のシンボルインスタンス上でクリックすると、独自のカスタムコードを追加できる関数が実行されます。
 		
@@ -7889,9 +7851,11 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		var a = Math.floor(Math.random() * (max + 1 - min)) + min;
 		
 		this.chara.head.gotoAndStop(0);
+		
 		this.window.tenki.gotoAndStop(a);
 		this.window.card.gotoAndStop(a);
 		this.omikuji.gotoAndStop(a);
+		
 		
 		this.window.gotoAndStop(1);
 	}
@@ -8012,6 +7976,24 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	}
 	this.frame_217 = function() {
 		this.stop();
+		
+		
+		
+		/* マウスクリックイベント
+		特定のシンボルインスタンス上でクリックすると、独自のカスタムコードを追加できる関数が実行されます。
+		
+		手順 :
+		1. 以下の「// カスタムコードを開始」と記述された行の後ろに新しい行を挿入して、カスタムコードを追加します。
+		シンボルインスタンスをクリックすると、コードが実行されます。
+		
+		*/
+		this.btn02.addEventListener("click", fl_MouseClickHandler_9.bind(this));
+		
+		function fl_MouseClickHandler_9()
+		{
+			var a=0;
+		this.gotoAndStop(0);
+		}
 	}
 
 	// actions tween:
@@ -8046,6 +8028,15 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.timeline.addTween(cjs.Tween.get(this.btn_next).wait(41).to({_off:false},0).wait(1).to({alpha:0.0117},6).to({_off:true},1).wait(169));
 
+	// レイヤー_1
+	this.btn02 = new lib.btn02_1();
+	this.btn02.name = "btn02";
+	this.btn02.setTransform(651.8,1207.5);
+	this.btn02._off = true;
+	new cjs.ButtonHelper(this.btn02, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.btn02).wait(217).to({_off:false},0).wait(1));
+
 	// card
 	this.instance_3 = new lib.card_name("synched",0);
 	this.instance_3.setTransform(538.8,837.1,0.579,0.5741,10.7245,0,0,-2.6,0.1);
@@ -8067,7 +8058,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.omikuji.setTransform(363.15,1370.65);
 	this.omikuji.alpha = 0.0117;
 
-	this.timeline.addTween(cjs.Tween.get(this.omikuji).wait(31).to({y:1153.65},0).to({x:362.9,y:1124.7,alpha:1},5).wait(5).to({y:1092.7,alpha:0.0117},7).to({_off:true},1).wait(169));
+	this.timeline.addTween(cjs.Tween.get(this.omikuji).wait(31).to({y:1153.65},0).to({x:362.9,y:1124.7,alpha:1},5).wait(5).to({y:1092.7,alpha:0.0117},7).wait(1).to({x:363.15,y:1370.65},0).wait(169));
 
 	// 会話フレーム
 	this.instance_5 = new lib.g_flm("synched",0);
@@ -8083,7 +8074,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.chara.setTransform(363.5,1442.95);
 	this.chara.alpha = 0.0117;
 
-	this.timeline.addTween(cjs.Tween.get(this.chara).wait(42).to({scaleX:1.7746,scaleY:1.7746,x:370,y:1931.25,alpha:1},0).to({y:1443.15},6).wait(93).to({scaleX:1.0229,scaleY:1.0229,x:358.5,y:969},13).wait(49).to({regX:0.1,regY:0.1,x:317.95,y:969.1},4).to({regX:0,regY:0,x:216.3,y:969},10).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.chara).wait(42).to({scaleX:1.7746,scaleY:1.7746,x:370,y:1931.25,alpha:1},0).to({y:1443.15},6).wait(93).to({regY:0.1,scaleX:1.1428,scaleY:1.1428,x:362.6,y:1021.2},11).wait(51).to({x:196.65},14).wait(1));
 
 	// 壁
 	this.instance_6 = new lib.g_bgflm("synched",0);
@@ -8118,7 +8109,6 @@ lib.properties = {
 		{src:"images/2020Mov_atlas_3.png", id:"2020Mov_atlas_3"},
 		{src:"images/2020Mov_atlas_4.png", id:"2020Mov_atlas_4"},
 		{src:"images/2020Mov_atlas_5.png", id:"2020Mov_atlas_5"},
-		{src:"images/2020Mov_atlas_6.png", id:"2020Mov_atlas_6"},
 		{src:"sounds/sound.mp3", id:"sound"}
 	],
 	preloads: []
