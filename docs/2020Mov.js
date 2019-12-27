@@ -4475,7 +4475,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.card.name = "card";
 	this.card.setTransform(273.4,575.35,0.1401,0.1401,10.7212);
 
-	this.timeline.addTween(cjs.Tween.get(this.card).wait(14).to({x:-1,y:-10.35},0).to({regX:-0.1,regY:-0.1,scaleX:1.2882,scaleY:1.2882,rotation:10.7228,x:-1.05,y:-10.55},6).to({regX:0,regY:0,scaleX:1,scaleY:1,rotation:10.7251,x:-0.85,y:-10.4},2).wait(7).to({regX:-0.4,regY:-0.1,scaleX:0.0256,x:-0.95,y:-10.5},5,cjs.Ease.quintOut).to({_off:true},1).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.card).wait(14).to({x:-1,y:-10.35},0).to({regX:-0.1,regY:-0.1,scaleX:1.2882,scaleY:1.2882,rotation:10.7228,x:-1.05,y:-10.55},6).to({regX:0,regY:0,scaleX:1,scaleY:1,rotation:10.7251,x:-0.85,y:-10.4},2).wait(7).to({alpha:0.0117},5).to({_off:true},1).wait(5));
 
 	// tennki
 	this.tenki = new lib.m_kuji();
@@ -7488,104 +7488,104 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance = new lib.前髪の動き();
 	this.instance.setTransform(-264.5,-454);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({rotation:7.9543,x:-240.9,y:-449},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({rotation:7.9543,x:-242.9,y:-452.75},13).wait(1));
 
 	// 前髪左
 	this.instance_1 = new lib.前髪左の動き();
 	this.instance_1.setTransform(-306.5,-444.25);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-283.95,y:-445.25},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-285.95,y:-449},13).wait(1));
 
 	// 前髪右
 	this.instance_2 = new lib.前髪右の動き();
 	this.instance_2.setTransform(-187.35,-448.25);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-165.4,y:-432.8},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-167.4,y:-436.55},13).wait(1));
 
 	// 耳の動き
 	this.instance_3 = new lib.耳の動き();
 	this.instance_3.setTransform(-142.5,-513.5,1,1,0,0,180,-37.5,-52.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({regY:-52.6,skewX:7.9543,skewY:187.9543,x:-111.8,y:-491.15},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({regY:-52.6,skewX:7.9543,skewY:187.9543,x:-113.8,y:-494.9},13).wait(1));
 
 	// 耳の動き
 	this.instance_4 = new lib.耳の動き();
 	this.instance_4.setTransform(-351.5,-513.5,1,1,0,0,0,-37.5,-52.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({regX:-37.6,regY:-52.6,rotation:7.9543,x:-318.9,y:-520.1},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({regX:-37.6,regY:-52.6,rotation:7.9543,x:-320.9,y:-523.85},13).wait(1));
 
 	// 烏帽子
 	this.instance_5 = new lib.烏帽子_1("synched",0);
 	this.instance_5.setTransform(-245.5,-557,1,1,0,0,0,-52.5,-43);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({regX:-52.6,regY:-43.1,rotation:7.9543,x:-207.95,y:-548.55},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({regX:-52.6,regY:-43.1,rotation:7.9543,x:-209.95,y:-552.3},13).wait(1));
 
 	// みつあみ左
 	this.instance_6 = new lib.みつあみ左();
 	this.instance_6.setTransform(-330,-390.5,1,1,0,0,0,-50,-390.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({regX:-49.6,regY:-391.2,rotation:3.7542,x:-314.05,y:-395.9},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({regX:-49.6,regY:-391.2,rotation:3.7542,x:-316.05,y:-399.65},13).wait(1));
 
 	// みつあみ右
 	this.instance_7 = new lib.みつあみ右();
 	this.instance_7.setTransform(-165,-401.2,1,1,0,0,0,-163,-374.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({regX:-163.1,rotation:2.4714,x:-152.1,y:-387.6},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({regX:-163.1,rotation:2.4714,x:-154.1,y:-391.35},13).wait(1));
 
 	// モミ
 	this.instance_8 = new lib.モミ("synched",0);
 	this.instance_8.setTransform(-178.9,-362.5,1,1,0,0,180);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({regX:0.1,regY:-0.1,skewX:7.9543,skewY:187.9543,x:-168.9,y:-346.6},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({regX:0.1,regY:-0.1,skewX:7.9543,skewY:187.9543,x:-170.9,y:-350.35},13).wait(1));
 
 	// モミ
 	this.instance_9 = new lib.モミ("synched",0);
 	this.instance_9.setTransform(-310.9,-362.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-299.65,y:-364.9},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-301.65,y:-368.65},13).wait(1));
 
 	// 頬
 	this.cheek = new lib.頬m();
 	this.cheek.name = "cheek";
 	this.cheek.setTransform(-243.5,-350.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.cheek).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-234.55,y:-343.7},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.cheek).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-236.55,y:-347.45},13).wait(1));
 
 	// 両目
 	this.eye = new lib.eyes();
 	this.eye.name = "eye";
 
-	this.timeline.addTween(cjs.Tween.get(this.eye).to({regX:-0.1,regY:0.1,rotation:7.9543,x:-41.9,y:37.15},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.eye).to({regX:-0.1,regY:0.1,rotation:7.9543,x:-43.9,y:33.4},13).wait(1));
 
 	// mouse
 	this.mouse = new lib.mouse();
 	this.mouse.name = "mouse";
 	this.mouse.setTransform(-244.5,-299);
 
-	this.timeline.addTween(cjs.Tween.get(this.mouse).to({rotation:7.9543,x:-242.55,y:-292.75},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.mouse).to({rotation:7.9543,x:-244.55,y:-296.5},13).wait(1));
 
 	// 鼻
 	this.instance_10 = new lib.鼻_1("synched",0);
 	this.instance_10.setTransform(-245,-350.25);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-236.05,y:-343.65},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({regX:-0.1,regY:-0.1,rotation:7.9543,x:-238.05,y:-347.4},13).wait(1));
 
 	// 輪郭
 	this.instance_11 = new lib.輪郭_1("synched",0);
 	this.instance_11.setTransform(-244.5,-286.5,1,1,0,0,0,0,105);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({regX:-0.1,rotation:6.1897,x:-242.2,y:-281.6},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({regX:-0.1,rotation:6.1897,x:-244.2,y:-285.35},13).wait(1));
 
 	// 頭蓋
 	this.instance_12 = new lib.頭蓋_1("synched",0);
 	this.instance_12.setTransform(-245.5,-419.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({rotation:7.9543,x:-224.95,y:-411.15},13).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({rotation:7.9543,x:-226.95,y:-414.9},13).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-392.4,-600,393,600);
+p.nominalBounds = new cjs.Rectangle(-394.4,-602,393,602);
 
 
 (lib.face_down = function(mode,startPosition,loop) {
@@ -7943,6 +7943,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		this.chara.head.face.mouse_talk.gotoAndPlay(2);
 		this.chara.head.face2.eye.gotoAndStop(20);
 		//しゃべらせる
+		this.window.gotoAndPlay(30);
 	}
 	this.frame_138 = function() {
 		/* このフレームで停止
@@ -7973,7 +7974,6 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		this.chara.body.gotoAndStop(10);
 		this.chara.body.act1.gotoAndPlay(1);
 		//手を上げるアクションを開始
-		this.window.gotoAndPlay(30);
 	}
 	this.frame_161 = function() {
 		this.chara.body.gotoAndStop(20);
